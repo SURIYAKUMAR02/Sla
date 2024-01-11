@@ -1,0 +1,196 @@
+/**
+ * 
+ */
+function dispPan()
+{
+if(document.getElementById('city').value == 2)
+	{
+	document.getElementById('pan').style.display = 'block';
+	}
+	else
+document.getElementById('pan').style.display = 'none';
+}
+
+function checkJavascript()  
+{ 
+    var obj = document.getElementById('jav');  
+    obj.value =1; 
+	var a= obj.value;
+} 
+function phvalidation(phone)
+{
+if(phone.value!="")
+{
+
+var ph=phone.value;
+if(!Validatephone(ph))
+{
+phone.value="";
+phone.focus();
+return false;
+}
+}
+}
+function enablesave()
+{
+var ids=document.getElementById('idsave');
+if(document.form1.declre.checked==true)
+ids.disabled=false;
+else if(document.form1.declre.checked==false)
+ids.disabled=true;
+}
+function datevalidate(d,m,y)
+{
+fh=0;
+if(m==4 || m==6 ||m==9 || m==11)
+	{
+	if(d>30)
+	fh=1;
+	}
+else if(m==2)
+	{
+     var lp=y%4;
+       if(lp==0)
+			{
+			if(d>29)
+			fh=1;
+       		 }
+	else
+	   {
+				if(d>28)
+				fh=1;
+				 }
+		}
+return fh;
+}
+function validation()
+{
+
+if(document.form1.txtname.value=="" || isBlank(document.form1.txtname.value))
+ {
+alert("Please enter your name");
+document.form1.txtname.value="";
+document.form1.txtname.focus();
+return false;
+}
+if(document.form1.gender[0].checked==false && document.form1.gender[1].checked==false   )
+{
+alert("Enter Gender");
+return false;
+}
+if(document.form1.dob.value=="" || isBlank(document.form1.dob.value))
+{
+alert("Enter dob");
+document.form1.dob.value="";
+return false;
+//document.form1.weight.focus();
+
+}
+var dob=document.form1.dob.value;
+var dobyr=dob.split('/');
+var b=(dobyr[2]);
+var dobcur=new Date();
+var dobcuryr=dobcur.getFullYear();
+var a=(parseInt(dobcuryr));
+var c=(parseInt(b));
+if((a-c )< 18)
+{
+alert('Age should be greater than 18');
+document.form1.dob.value="";
+document.form1.dob.focus();
+return false;
+}
+if(document.form1.weight.value=="" || isBlank(document.form1.weight.value))
+{
+alert("Enter Weight in Kgs");
+document.form1.weight.focus();
+document.form1.weight.value="";
+return false;
+}
+if(document.form1.weight.value>125)
+{
+alert("Enter Valid Weight");
+document.form1.weight.value="";
+document.form1.weight.focus();
+return false;
+
+
+}
+if(document.form1.bgroup.value==0 )
+{
+alert("Select your Blood Group");
+return false;
+}
+if(document.form1.state.value==0)
+{
+alert("Select State");
+return false;
+}
+if(document.form1.city.value==0)
+{
+alert("Select City");
+return false;
+}
+
+if((document.form1.txtresph.value=="" || isBlank(document.form1.txtresph.value))&&(document.form1.txtmobph.value=="" || isBlank(document.form1.txtmobph.value)))
+{
+alert("Please enter any phone number");
+document.form1.txtresph.value="";
+document.form1.txtresph.focus();
+return false;
+
+}
+if(document.form1.lcladrs.value=="" || isBlank(document.form1.lcladrs.value))
+{
+alert("Enter local address");
+document.form1.lcladrs.value="";
+document.form1.lcladrs.focus();
+return false;
+}
+if(document.form1.txtemail.value=="" || isBlank(document.form1.txtemail.value))
+{
+alert("Enter email address");
+document.form1.txtemail.value="";
+document.form1.txtemail.focus();
+return false;
+}
+if(document.form1.dtf.value=="" || isBlank(document.form1.dtf.value))
+ {
+alert("Please enter last donation date");
+document.form1.dtf.value="";
+document.form1.dtf.focus();
+return false;
+}
+if(document.form1.txtsecurity.value=="" || isBlank(document.form1.txtsecurity.value))
+{
+alert("Enter Security image.");
+document.form1.txtsecurity.focus();
+return false;
+}
+if(document.form1.declre.checked==false)
+{
+alert("Please Confirm Your Declaration ");
+return false;
+}
+else
+return true;
+}
+function isBlank(stext)
+{
+	for(i=0;i<stext.length;i++)
+	{
+		if(stext.charAt(i)!=" " && stext.charAt(i)!="." && stext.charAt(i)!="," )
+		
+			return false
+	
+	}
+	return true
+}
+
+function toblank(st)
+{
+	st.value=null;
+	alert("Not Allowed");
+	return false;
+	
+}

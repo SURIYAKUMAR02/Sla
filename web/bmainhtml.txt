@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+   <title>Bloood Donar</title>
+   <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="bmain.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo"><i class="fa-sharp fa-solid fa-house-medical"></i> BLOOD DONAR</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="bmain.html">HOME</a></li>
+                    <li><a href="beligibility.html">ELIGIBILITY</a></li>
+                    <li><a href="bfacts.html">BLOOD FACTS</a></li>
+                    <li><a href="bdonar.html">SEARCH DONAR</a></li>
+                    <li><a href="bregister.html">DONAR REGISTRATION</a></li>
+                    <li><a href="bfooter.html">CONTACT</a></li>
+                 	<li><a href="blogin.html" class="user"><b>LogIn</b></a> 
+                    <li><a href="bsignup.html" class="user1">Register</a> </li>
+                </ul>
+   			</div>
+
+        </div> 
+        
+        <div class="row" style="background-color: #6A1208;padding-top: 55px;">
+    	<div class="col-md-4" style="text-align: center;color: #f6f6f6;padding-top:50px;">
+        <h3><div><i class="fa-solid fa-check"></i> 	A Drop of water makes ocean.</div>
+            <div><i class="fa-solid fa-check"></i>   A Unit of Blood SAVES LIFE.</div>
+            <div><i class="fa-solid fa-check"></i> 	Join the effort and save lives.</div></h3>
+            
+         
+    </div>
+        <div style="padding: 10px;">
+   <center> <div style="color:white;padding:10px;"> <h3>post your requirment<a href='https://www.friends2support.org/'> Click here</a></div></center>
+    
+</div>        
+	<div>
+           <img src="images/bb.jpg" width=100%>
+          
+        </div>
+        
+         <div class="panel">
+           <center> <div class="panel-center"><h1> <u> Benefits </u> </h1></div></center>
+            <div class="panel-justify" style="line-height:2;">
+            
+                <li><i class="fa-solid fa-check"></i>  Donating blood may reduce the risk of heart disease for men and stimulate the generation of red blood cells.</li>
+                <li><i class="fa-solid fa-check"></i>  The amount of toxic chemicals (e.g. mercury, pesticides, fire retardants) circulating in the blood stream is reduced by the amount contained in given blood. </li>
+                <li><i class="fa-solid fa-check"></i>  The good news is you can give blood again and again to help save more lives! </li>
+                <li><i class="fa-solid fa-check"></i>  If you're a regular blood donor, you can give blood once in 12 weeks.</li>
+            </div>
+        </div>
+            <div class="panel">
+              <center><div class="panel-center"><h1> <u>World Blood Donors Day</u> </h1></div> </center>
+                <div class="panel-justify" style="line-height:2;">
+                    <li><i class="fa-solid fa-check"></i>  Following the success of the World Health Day - 2000 with the theme <b>'Blood Saves Lives'</b>, 14th June is observed as the World <a href="https://en.wikipedia.org/wiki/World_Blood_Donor_Day">Blood Donors Day</a>. 
+                    The date coincides with the birth date of <a href="https://en.wikipedia.org/wiki/Karl_Landsteiner">Karl Landsteiner</a>, who discovered the ABO blood group system.
+                </li>
+                </div>
+            </div>
+
+			
+			<div class="table" style=bgcolor:s#cdffcd">
+			<center>	<div class="recent"><h2> Recent Blood Donors</h2></div></center>
+				<table style="width:100%">
+				
+			<tr>
+				<th>S.No</th>			
+				<th>NAME</th>
+				<th>BLOOD GROUP</th>
+				<th>CITY</th>
+				<th>JOINED ON</th>
+				
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Gokul</td>
+				<td>O +ve</td>
+				<td>Vadapalani</td>
+				<td>20/03/2023</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Kannan</td>
+				<td>A +ve</td>
+				<td>Porur</td>
+				<td>18/03/2023</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>siva</td>
+				<td>O +ve</td>
+				<td>Adayar</td>
+				<td>15/03/2023</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Moorthi</td>
+				<td>AB +ve</td>
+				<td>Mangadu</td>
+				<td>14/03/2023</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>Jaishri</td>
+				<td>A -ve</td>
+				<td>Arumbakkam</td>
+				<td>12/03/2023</td>
+			</tr>
+			<tr>
+				<td>6</td>
+				<td>Bruntha</td>
+				<td>B +ve</td>
+				<td>Broadway</td>
+				<td>1/03/2023</td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td>Sathika</td>
+				<td>O -ve</td>
+				<td>Ambattur</td>
+				<td>25/02/2023</td>
+			</tr>
+			<tr>
+				<td>8</td>
+				<td>Sashikumar</td>
+				<td>AB -ve</td>
+				<td>Maduravoyal</td>
+				<td>24/02/2023</td>
+			</tr>
+			<tr>
+				<td>9</td>
+				<td>Elilan</td>
+				<td>B +ve</td>
+				<td>Manali</td>
+				<td>22/02/2023</td>
+			</tr>
+			<tr>
+				<td>10</td>
+				<td>Rithaangi</td>
+				<td>B +ve</td>
+				<td>Puzhal</td>
+				<td>10/02/2023</td>
+			</tr>
+			
+			</table>
+			
+			<br>
+			<br>
+			<br>
+          </div>
+          
+          <center>
+            <div class="col-md-12 center" style="border-radius: 5px;background-color: #f6f6f6;padding: 20px 0 20px;">
+                Every 2 Seconds, someone in the country is in need of blood <br>
+                <br>
+                Every year our nation requires about 4 Crore units of blood <br>
+                <br>
+                Out of which only a meager 5 Lakh units of blood are available.
+                </div> 
+                </center>
+			</div>
+        </div>
+       <div class="social">
+       		<ul>
+			   <li><a href=”#”><i class=”fa fa-facebook”></i></a></li>
+			   <li><a href=”#”><i class=”fa fa-twitter”></i></a></li>
+			   <li><a href=”#”><i class=”fa fa-google-plus”></i></a></li>
+			   <li><a href=”#”><i class=”fa fa-youtube”></i></a></li>
+			   <li><a href=”#”><i class=”fa fa-linkedin-square”></i></a></li>
+			</ul>
+       
+       
+       </div>
+      
+    
+</body>
+</html>

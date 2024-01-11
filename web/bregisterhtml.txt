@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/bregister.css">
+<link rel="stylesheet" href="bregister.js">
+</head>
+<body>
+<form action="bregistered" method="post">
+  <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo"><i class="fa-sharp fa-solid fa-house-medical"></i> BLOOD DONAR</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="bmain.html">HOME</a></li>
+                    <li><a href="beligibility.html">ELIGIBILITY</a></li>
+                    <li><a href="bfacts.html">BLOOD FACTS</a></li>
+                    <li><a href="bdonar.html">SEARCH DONAR</a></li>
+                    <li><a href="bregister.html">DONAR REGISTRATION</a></li>
+                    <li><a href="bfooter.html">CONTACT</a></li>
+                 	<li><a href="blogin.html" class="user"><b>LogIn</b></a> 
+                    <li><a href="bsignup.html" class="user1">Register</a> </li>
+                </ul>
+   			</div>
+
+        </div> 
+        
+        <div class="row" style="background-color: #6A1208;padding-top: 55px;">
+    	<div class="col-md-4" style="text-align: center;color: #f6f6f6;padding-top:50px;">
+        <h3><div><i class="fa-solid fa-check"></i> 	A Drop of water makes ocean.</div>
+            <div><i class="fa-solid fa-check"></i>   A Unit of Blood SAVES LIFE.</div>
+            <div><i class="fa-solid fa-check"></i> 	Join the effort and save lives.</div></h3>
+            
+         
+    </div>
+    </div>
+    </div>
+    <br>
+    
+    <div class="table"style="background-image:url('images/register.jpg')" >
+    
+    <table>
+    	  
+				<tr>
+					<th colspan="2"><h2>Form</h2></th>
+				</tr>
+				<tr>
+					<td>Name :</td>
+					<td><input type="text" name="uname"></td> 	
+				</tr>
+				<tr>
+					<td>Gender :</td>
+					<td><input type="radio" name="gender" value="Male">Male <br>
+					<input type="radio" name="gender" value="Female">Female</td> 	
+				</tr>
+				<tr>
+					<td>Dob :</td>
+					<td><input type="date" name="dob" min="1980" max="2005" ></td> 	
+				</tr>
+				<tr>
+					<td>Weight :</td>
+					<td><input type="text" name="weight"></td> 	
+				</tr>
+				<tr>
+					<td >Blood Group :</td>
+					<td width="17"s><select name="bgroup">
+					<option value="0">Select Blood group</option><option value="A+">A+</option><option value="B+">B+</option><option value="AB+">AB+</option>
+					<option value="A-">A-</option><option value="B-">B-</option><option value="AB-">AB-</option><option value="O+">O+</option>
+					<option value="O-">O-</option>          </select></td> 	
+				</tr>
+				<tr>
+					<td>State :</td>
+					<td><select name="state">
+					<option value="0">Select State</option>
+            		<option value="TN">TamilNadu</option></select></td> 	
+				</tr>
+				<tr>
+					<td>District :</td>
+					<td><select name="District">
+					<option value="none">Select District</option>
+		            <option value="Chennai">Chennai</option><option value="Chengalpattu">Chengalpattu</option>
+		            <option value="thiruvallur">Thiruvallur</option><option value="Kanchipuram">Kanchipuram</option>
+		            </select></td> 	
+				</tr>
+				<tr>
+					<td>Location :</td>
+					<td><select name="Area">
+					<option value="0">Select Location</option>
+            					   <option value="adyar">Adyar</option>
+                                   <option value="alandur">Alandur</option>
+                                   <option value="alwarthirunagar">Alwarthirunagar</option>
+                                   <option value="aminjikarai">Aminjikarai</option>
+                                   <option value="anna nagar">Anna Nagar</option>
+                                   <option value="chepauk">Chepauk</option>
+                                   <option value="chrompet">Chrompet</option>
+                                   <option value="ekkatuthangal">Ekkaduthangal</option>
+                                   <option value="guindy">Guindy</option>
+                                   <option value="guduvancheri">Guduvancheri</option>
+                                   <option value="iyapanthangal">Iyyapanthangal</option>
+                                   <option value="kattupakkam">Kattupakkam</option>
+                                   <option value="kattupakkam">Kattupakkam</option>
+                                   <option value="kilpauk">Kilpauk</option>
+                                   <option value="kodambakkam">Kodambakkam</option>
+                                   <option value="kolathur">Kolathur</option>
+                                   <option value="koyembedu">Koyambedu</option>
+                                   <option value="maduravoyal">Maduravoyal</option>
+                                   <option value="medavakkam">Medavakkam</option>
+                                   <option value="mogappair">Mogappair</option>
+                                   <option value="mylapore">Mylapore</option>
+                                   <option value="neelankarai">Neelankarai</option>
+                                   <option value="nungambakkam">Nungambakkam</option>
+                                   <option value="parktown">Park Town</option>
+                                   <option value="pahavanthangal">Pazhavanthangal</option>
+                                   <option value="royapettah">Royapettah</option>
+                                   <option value="saligramam">Saligramam</option>
+                                   <option value="sholinganallur">Sholinganallur</option>
+                                   <option value="tambaram">Tambaram</option>
+                                   <option value="thirumullaivoyal">Thirumullaivoyal</option>
+                                   <option value="tnagar">T.Nagar</option>
+                                   <option value="velacheery">Velachery</option>
+                                   </select></td> 	
+				</tr>
+				<tr>
+					<td>Mobile Number :</td>
+					<td><input type="text" name="mob"></td> 	
+				</tr>
+				<tr>
+					<td>Email :</td>
+					<td><input type="email" name="mail"></td> 	
+				</tr>
+				<tr>
+					<td>Last Donation Date :</td>
+					<td><input type="date" name="lod"></td> 	
+				</tr>
+				<tr>
+				 <td height="26" colspan="3" align="center"><div align="center">
+        <input type="submit" name="submit" value="Submit" >
+        <input name="reset" type="reset" value="Reset">
+        </tr>
+		  
+    </table>
+
+ </div>
+    </form>
+
+
+
+
+
+</body>
+</html>

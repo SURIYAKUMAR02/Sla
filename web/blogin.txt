@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta charset="UTF-8">
+<title>Registration</title>
+<link rel="stylesheet" href="bstyle2.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+</head>
+<body>
+<div class="container">
+    <div class="title"></div>
+    <div class="content">
+    
+      <form action="bsignin" method="post">
+      
+        <div class="user-details">
+        
+        <div class="h1">
+			<center><h1><u>Login Page</u></h1></center>
+		</div>
+		
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" name="lemail" placeholder="Enter your email" required>
+          
+            <span class="details">Password</span>
+            <input type="password" name="lpass" placeholder="Enter your password" required>
+          </div>
+         
+        </div>
+            <div class="button">
+           		 <input type="submit" value="Register">
+            </div>
+		
+          <div class="login-signup">
+              <span class="text">New Member ?</span>
+              <a href="bsignup.html">Signup Here</a>
+          </div>  
+          </form> 
+          </div>
+            </div>
+        
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Facts on donation</title>
+ <link rel="stylesheet" href="css/bfacts.css">
+ 
+ <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container" style="padding-bottom: 10px;">
+  <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo"><i class="fa-sharp fa-solid fa-house-medical"></i> BLOOD DONAR</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="beligibility.html">ELIGIBILITY</a></li>
+                    <li><a href="bfacts.html">BLOOD FACTS</a></li>
+                    <li><a href="bdonar.html">SEARCH DONAR</a></li>
+                    <li><a href="bregister.html">DONAR REGISTRATION</a></li>
+                    <li><a href="bfooter.html">CONTACT</a></li>
+                 	<li><a href="blogin.html" class="user"><b>LogIn</b></a> 
+                    <li><a href="bsignup.html" class="user1">Register</a> </li>
+                </ul>
+   			</div>
+   			   </div> 
+   			   
+   			 <div class="row" style="background-color: #6A1208;padding-top: 55px;">
+    	<div class="col-md-4" style="text-align: center;color: #f6f6f6;padding-top:50px;">
+        <h3><div><i class="fa-solid fa-check"></i> 	A Drop of water makes ocean.</div>
+            <div><i class="fa-solid fa-check"></i>   A Unit of Blood SAVES LIFE.</div>
+            <div><i class="fa-solid fa-check"></i> 	Join the effort and save lives.</div></h3>
+    </div>
+        <div style="padding: 10px;">
+   <center> <div style="color:rgb(65, 177, 190);padding:10px;"> <h3>Active Donors :235+</h3> </div></center>
+    
+</div>        
+	</div>
+	
+            <div class="fact" >
+            <br>
+            <br>
+                <div class="center"><h2><u>General Blood Facts </u></h2></div>
+          
+                <p>
+                <br>
+                <br>
+                     <i class="fa-sharp fa-regular fa-circle fa-2xs"></i>		There is no substitute for human Blood <br><br>
+                     <i class="fa-sharp fa-regular fa-circle fa-2xs"></i>		Blood makes up about 7% of your body's weight. <br><br>
+                     <i class="fa-sharp fa-regular fa-circle fa-2xs"></i>		An average adult has about 14 to 18 pints of Blood. <br><br>
+                     <i class="fa-sharp fa-regular fa-circle fa-2xs"></i>       One standard unit or pint of Blood equals about two cups. <br><br>
+                     <i class="fa-sharp fa-regular fa-circle fa-2xs"></i>		Blood carries oxygen and nutrients to all of the body. <br><br>
+                     <i class="fa-sharp fa-regular fa-circle fa-2xs"></i>		Blood carries carbon dioxide and other waste products back to the lungs, kidneys and liver for disposal. <br><br>
+                     <i class="fa-sharp fa-regular fa-circle fa-2xs"></i>		Blood fights against infection and helps heal wounds. <br><br>
+                     <i class="fa-sharp fa-regular fa-circle fa-2xs"></i>		One unit of donated whole Blood is separated into components before use (red Blood cells, white Blood cells, plasma, platelets, etc.) <br><br>
+                     <i class="fa-sharp fa-regular fa-circle fa-2xs"></i>		There are four main Blood types: A, B, AB and O. <br><br>
+                     <i class="fa-sharp fa-regular fa-circle fa-2xs"></i>		Each Blood type is either Rh positive or negative. <br><br>
+                     <i class="fa-sharp fa-regular fa-circle fa-2xs"></i>		There are about one billion red Blood cells in a few drops of whole Blood. <br><br>
+                     <i class="fa-sharp fa-regular fa-circle fa-2xs"></i>		Red Blood cells live about 120 days in our bodies. <br><br>
+                     <i class="fa-sharp fa-regular fa-circle fa-2xs"></i>		Red Blood cells can be stored under normal conditions for up to 42 days. <br><br>
+                     <i class="fa-sharp fa-regular fa-circle fa-2xs"></i>		Frozen red Blood cells can be stored for ten years, and more. <br><br>
+                     <i class="fa-sharp fa-regular fa-circle fa-2xs"></i>		Platelets must be used within five days. <br><br>
+                     <i class="fa-sharp fa-regular fa-circle fa-2xs"></i>		Platelets are small Blood cells that assist in the process of Blood clotting helping those with leukemia and other cancers, controlling bleeding.<br><br>
+                     <i class="fa-sharp fa-regular fa-circle fa-2xs"></i>		Plasma, the fourth major component of Blood, is a sticky, pale yellow fluid mixture of water, protein and salts. It is 95% water. The other 5% is made up of nutrients, proteins and hormones. <br><br>
+                     <i class="fa-sharp fa-regular fa-circle fa-2xs"></i>		Blood Plasma constitutes 55% of the volume of human Blood. <br><br>
+                     <i class="fa-sharp fa-regular fa-circle fa-2xs"></i>		Plasma helps maintain Blood pressure, carries Blood cells, nutrients, enzymes and hormones, and supplies critical proteins for Blood clotting and immunity. <br><br>
+                     <i class="fa-sharp fa-regular fa-circle fa-2xs"></i>		Type AB plasma has been considered as the universal Blood plasma type, and therefore AB plasma is given to patients with any Blood type. <br><br>
+                     <i class="fa-sharp fa-regular fa-circle fa-2xs"></i>		Frozen Plasma can be stored for up to one year. <br><br>
+                     <i class="fa-sharp fa-regular fa-circle fa-2xs"></i>		Human Blood; red Blood cells, white Blood cells, plasma and platelets are made naturally by the body in the bone marrow.<br><br>
+                </p>
+                
+            </div>
+        </div>
+     </div>   
+</body>
+</html>

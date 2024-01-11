@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Donar List</title>
+ <link rel="stylesheet" href="bdonar.css">
+ <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo"><i class="fa-sharp fa-solid fa-house-medical"></i> BLOOD DONAR</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="beligibility.html">ELIGIBILITY</a></li>
+                    <li><a href="bfacts.html">BLOOD FACTS</a></li>
+                    <li><a href="bdonar.html">SEARCH DONAR</a></li>
+                    <li><a href="bregister.html">DONAR REGISTRATION</a></li>
+                    <li><a href="bfooter.html">CONTACT</a></li>
+                 	<li><a href="blogin.html" class="user"><b>LogIn</b></a> 
+                    <li><a href="bsignup.html" class="user1">Register</a> </li>
+                </ul>
+   			</div>
+   			   </div> 
+   			   
+   			 <div class="row" style="background-color: #6A1208;padding-top: 55px;">
+    	<div class="col-md-4" style="text-align: center;color: #f6f6f6;padding-top:50px;">
+        <h3><div><i class="fa-solid fa-check"></i> 	A Drop of water makes ocean.</div>
+            <div><i class="fa-solid fa-check"></i>   A Unit of Blood SAVES LIFE.</div>
+            <div><i class="fa-solid fa-check"></i> 	Join the effort and save lives.</div></h3>
+    </div>
+        <div style="padding: 10px;">
+   <center> <div style="color:rgb(65, 177, 190);padding:10px;"> <h3>Active Donors :235+</h3> </div></center>
+    
+</div>        
+	</div>
+<center><h2>
+
+  <div class="hero" style="padding-bottom: 10px;background-image:url('images/ss1.png'); width:100%;">
+            
+                <form method="post">
+                    <div class="city">Select Area</div>
+                    <div class="col-md-4">
+                        <select name="city1" class="form-control">
+                        
+                        
+                        		   <option value="10">Select One</option>
+                                   <option value="10">Adyar</option>
+                                   <option value="477">Alandur</option>
+                                   <option value="70">Alwarthirunagar</option>
+                                   <option value="290">Aminjikarai</option>
+                                   <option value="326">Anna Nagar</option>
+                                   <option value="407">Chepauk</option>
+                                   <option value="274">Chrompet</option>
+                                   <option value="219">Ekkaduthangal</option>
+                                   <option value="465">Guindy</option>
+                                   <option value="464">Guduvancheri</option>
+                                   <option value="584">Iyyapanthangal</option>
+                                   <option value="64">Kattupakkam</option>
+                                   <option value="408">Kattupakkam</option>
+                                   <option value="132">Kilpauk</option>
+                                   <option value="521">Kodambakkam</option>
+                                   <option value="287">Kolathur</option>
+                                   <option value="68">Koyambedu</option>
+                                   <option value="379">Maduravoyal</option>
+                                   <option value="86">Medavakkam</option>
+                                   <option value="201">Mogappair</option>
+                                   <option value="9">Mylapore</option>
+                                   <option value="580">Neelankarai</option>
+                                   <option value="350">Nungambakkam</option>
+                                   <option value="266">Park Town</option>
+                                   <option value="121">Pazhavanthangal</option>
+                                   <option value="86">Royapettah</option>
+                                   <option value="201">Saligramam</option>
+                                   <option value="9">Sholinganallur</option>
+                                   <option value="580">Tambaram</option>
+                                   <option value="350">Thirumullaivoyal</option>
+                                   <option value="266">T.Nagar</option>
+                                   <option value="121">Velachery</option>                        
+                                                            
+                                                            
+                                                            
+                    </select>
+                    </div>
+                    <div class="col-md-2" style="margin-top:3%">Select Blood Group</div>
+                    <div class="col-md-2">
+                        <select name="bloodgroup">
+                            <option value="1">A+</option>
+                            <option value="2">A-</option>                
+                            <option value="5">B+</option>
+                            <option value="6">B-</option>
+                            <option value="7">AB+</option>
+                            <option value="8">AB-</option>
+                            <option value="13">O+</option>
+                            <option value="14">O-</option>
+                        </select>
+                  </form>  
+					</div>
+                       
+                    <div class="col-md-2">
+                        <button type="submit" style="padding:5px ; margin-top:2%"class="btn btn-primary btn-block btn-flat">Search</button>
+                    </div>
+                    
+                
+                </div>
+                </div>
+                 </h2>
+                   </center>
+                <div class="center" style="padding:10px;"><h3>Blood Donors List</h3>
+            <div class="col-md-12">
+                       <div class="row" style="padding: 10px;border-top: solid;border-top-color: #ddd;border-width: 0.5px;">
+                        <div class="col-md-12">
+                            <div class="col-md-3">Suresh</div>
+                            <div class="col-md-1">A1+</div>
+                            <div class="col-md-3">Alwarthiru Nagar</div>
+                            <div class="col-md-2">9866458725</div>
+                            <div class="col-md-3">9866458725</div>
+                        </div>
+                    </div>
+                                    <div class="row" style="padding: 10px;border-top: solid;border-top-color: #ddd;border-width: 0.5px;">
+                        <div class="col-md-12">
+                            <div class="col-md-3">RAM</div>
+                            <div class="col-md-1">O+</div>
+                            <div class="col-md-3">Vadapalani</div>
+                            <div class="col-md-2"></div>
+                            <div class="col-md-3">9703330504</div>
+                        </div>
+                    </div>
+                               
+                      
+                    </div> 
+            </div>
+     
+       
+      <footer class="container-fluid text-center">
+            <div class ="col-md-12" style="background-color:#333; padding: 25px;color: #f6f6f6; line-height: 1.5;font-size: .8rem;">
+    <div class="col-md-6" style="padding-top:20px;">
+        <a href="tips.php">Tips</a> | <a href="refer.php">Refer a Friend</a> |  <a href="privacy_policy.php"> Privacy Policy</a>
+    </div>
+    <div class="col-md-6">
+        <div>
+            <a href="https://facebook.com/BloodDonorsIndia" class="fa fa-facebook socialmedia" style="font-size:2rem;" target="_blank"></a>  <a href="https://twitter.com/Blood_Donors_in/" class="fa fa-twitter socialmedia" style="font-size:2rem;" target="_blank"></a>
+        </div>
+    </div>
+</div>
+
+     
+           
+            
+</body>
+</html>

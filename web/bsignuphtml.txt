@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration</title>
+<link rel="stylesheet" href="bstyle.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+</head>
+<body >
+
+
+  <div class="container">
+    <div class="title"></div>
+    <div class="content">
+    
+      <form action="bsignup" method="post">
+      
+        <div class="user-details">
+        
+        <div class="h1">
+			<center><h1><u>Registration Form</u></h1></center>
+		</div>
+          <div class="input-box">
+          <label><i class="zmdi zmdi-account zmdi-hc-lg"></i>  First Name</label>
+            <span class="details"></span>
+            <input type="text" name ="fname" placeholder="Enter your First name" required>
+          </div>
+          <div class="input-box">
+          <label><i class="zmdi zmdi-account zmdi-hc-lg"></i>  Last Name</label>
+            <span class="details"></span>
+            <input type="text"  name="lname" placeholder="Enter your username" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" name="email" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" name="phone" placeholder="Enter your number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="password" name="pass1" placeholder="Enter your password" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="password" name="pass2" placeholder="Confirm your password" required>
+          </div>
+        </div>
+       <div class="gender-details">
+          <input type="radio" name="gender1" id="dot-1">
+          <input type="radio" name="gender2" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender1">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender2">Female</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Prefer not to say</span>
+            </label>
+          </div>
+        </div>
+        
+        <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="termCon">
+                            <label for="termCon" class="text">I accepted all <a href="#" >terms and conditions</a></label>
+                        </div>
+                    </div>
+
+                    <div class="button">
+                        <input type="submit" value="Register">
+                    </div>
+   
+                <div class="login-signup">
+                    <span class="text">Already a member ?</span>
+                
+                        <a href="blogin.html">Login Here</a>
+                    
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+      
+    </div>
+  </div>
+
+</body>
+</html>

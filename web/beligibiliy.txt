@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Eligibility for Donation</title>
+ <link rel="stylesheet" href="css/beligibility.css">
+ 
+ <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+ <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo"><i class="fa-sharp fa-solid fa-house-medical"></i> BLOOD DONAR</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="beligibility.html">ELIGIBILITY</a></li>
+                    <li><a href="bfacts.html">BLOOD FACTS</a></li>
+                    <li><a href="bdonar.html">SEARCH DONAR</a></li>
+                    <li><a href="bregister.html">DONAR REGISTRATION</a></li>
+                    <li><a href="bfooter.html">CONTACT</a></li>
+                 	<li><a href="blogin.html" class="user"><b>LogIn</b></a> 
+                    <li><a href="bsignup.html" class="user1">Register</a> </li>
+                </ul>
+   			</div>
+   			   </div> 
+   			  <center>
+   			 <div class="row" style="background-color: #6A1208;padding-top: 55px;">
+    	<div class="col-md-4" style="text-align: center;color: #f6f6f6;padding-top:50px;">
+        <h3><div><i class="fa-solid fa-check"></i> 	A Drop of water makes ocean.</div>
+            <div><i class="fa-solid fa-check"></i>   A Unit of Blood SAVES LIFE.</div>
+            <div><i class="fa-solid fa-check"></i> 	Join the effort and save lives.</div></h3>
+    </div>
+        <div style="padding: 10px;">
+   <center> <div style="color:rgb(65, 177, 190);padding:10px;"> <h3>Active Donors :235+</h3> </div></center>
+    
+</div>        
+	</div>
+</center>
+<br>
+<br>
+<br>
+     <center>
+        <div class="container" style="padding-top: 80px;background-image:url('images/ss1.png'); width:100%;">
+            <div class="col-md-12 center">
+              <div class="key">
+                        <ul> <h3>KEY POINTS </h3>
+                        <li><i class="fa-solid fa-circle-arrow-right"></i> 	Age between 18 and 60 years
+						<li><i class="fa-solid fa-circle-arrow-right"></i>	Haemoglobin(Hg)- not less than 12.5 g/Dl</li>	
+						<li><i class="fa-solid fa-circle-arrow-right"></i>	Pulse - between 50 and 100/minute with no irregularities</li>
+						<li><i class="fa-solid fa-circle-arrow-right"></i>	Blood Pressure -Systolic 100-180 mm Hg and Diastolic 50 - 100 mm Hg.</li>
+						<li><i class="fa-solid fa-circle-arrow-right"></i>	Temperature - Normal (oral temperature not exceeding 37.50C</li>
+                        <li><i class="fa-solid fa-circle-arrow-right"></i>	People with O negative blood can only receive red cell donations from O negative donors</li>
+                        </ul>
+                       </div>
+                       <br>
+                       <br>
+                       
+                     <table border="5px" align="center" width="90%" cellpadding="14" cellspacing="1" bgcolor="white">
+                    <tr bgcolor="#FFFFFF" class="ubuntu-black-13-bold">
+                    <u><h2>Red Blood cell compatibility Table</h2></u>
+                        <th>Recipient blood type</th>
+                        <th colspan="8">Donor red blood cells must be:</th>
+                    </tr>
+                     <br>
+                       <br>
+                    <tr>
+                    
+                        <td style="width:136px; background:#EFEFEF" text-align="center">O-</td>
+                        <td bgcolor="#ff9999">O-</td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#FFFFFF"></td>
+                    </tr>
+                    <tr>
+                        <td style="background:#EFEFEF">O+</td>
+                        <td bgcolor="#ff9999">O-</td>
+                        <td bgcolor="#ff9999">O+</td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#FFFFFF"></td>
+                    </tr>
+                    <tr>
+                        <td style="background:#EFEFEF">A-</td>
+                        <td bgcolor="#ff9999">O-</td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#ff9999">A-</td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#FFFFFF"></td>
+                    </tr>
+                    <tr>
+                        <td style="background:#EFEFEF">A+</td>
+                        <td bgcolor="#ff9999">O-</td>
+                        <td bgcolor="#ff9999">O+</td>
+                        <td bgcolor="#ff9999">A-</td>
+                        <td bgcolor="#ff9999">A+</td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#FFFFFF"></td>
+                    </tr>
+                    <tr>
+                        <td style="background:#EFEFEF">B-</td>
+                        <td bgcolor="#ff9999">O-</td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#ff9999">B-</td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#FFFFFF"></td>
+                    </tr>
+                    <tr>
+                        <td style="background:#EFEFEF">B+</td>
+                        <td bgcolor="#ff9999">O-</td>
+                        <td bgcolor="#ff9999">O+</td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#ff9999">B-</td>
+                        <td bgcolor="#ff9999">B+</td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#FFFFFF"></td>
+                    </tr>
+                    <tr>
+                        <td style="background:#EFEFEF">AB-</td>
+                        <td bgcolor="#ff9999">O-</td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#ff9999">A-</td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#ff9999">B-</td>
+                        <td bgcolor="#FFFFFF"></td>
+                        <td bgcolor="#ff9999">AB-</td>
+                        <td bgcolor="#FFFFFF"></td>
+                    </tr>
+                    <tr>
+                        <td style="background:#EFEFEF">AB+</td>
+                        <td bgcolor="#ff9999">O-</td>
+                        <td bgcolor="#ff9999">O+</td>
+                        <td bgcolor="#ff9999">A-</td>
+                        <td bgcolor="#ff9999">A+</td>
+                        <td bgcolor="#ff9999">B-</td>
+                        <td bgcolor="#ff9999">B+</td>
+                        <td bgcolor="#ff9999">AB-</td>
+                        <td bgcolor="#ff9999">AB+</td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+               </center>      
+               
+            </div>
+</body>
+</html>
